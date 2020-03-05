@@ -24,6 +24,7 @@ public class test {
 		driver=new ChromeDriver();
     	driver.get("http://ias-guidewire-core2-1969069036.us-east-1.elb.amazonaws.com:8080/cc/ClaimCenter.do");
     	driver.manage().window().maximize();
+    	driver.close();
 	}
 
 	@When("^Enter the Username and Password$")
