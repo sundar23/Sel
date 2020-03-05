@@ -26,7 +26,6 @@ public class test {
     	driver.manage().window().maximize();
     	
 	}
-
 	@When("^Enter the Username and Password$")
 	public void enter_the_Username_and_Password() throws Throwable {
 		WebElement x=new WebDriverWait(driver, 20).until(ExpectedConditions.elementToBeClickable(By.xpath("//*[@id=\'Login-LoginScreen-LoginDV-username\']/div/input")));
